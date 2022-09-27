@@ -5,6 +5,7 @@
 }
 
 header {
+    position: sticky;
     padding: 20px;
     background-color: grey;
     color: #ffffff;
@@ -13,10 +14,6 @@ header {
 h1 {
     display: inline-block;
     font-size: 26px;
-}
-
-.seo {
-    color: #d9dcd6;
 }
 
 nav {
@@ -39,8 +36,42 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
 h2 {
-    margin-top: 20px;
+    margin: 50px 50px;
     font-size: 20px;
     text-align: center;
+}
+
+.landing {
+    width: 600px;
+    margin: auto;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 3px;
+    text-align: center;
+
 }
